@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/  file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3">
+		<menu id="/Debian"/>
+		<separator/>
+		<item label="(S) Shell CL">
+			<action name="Execute">
+				<execute>xfce4-terminal</execute>
+			</action>
+		</item>
+		<item label="(D) Document">
+			<action name="Execute">
+				<execute>stterm -c Neovim -T Neovim -f 'Liberation Mono:pixelsize=15:antialias=true:autohint=true' -e fish -c 'nvim'</execute>
+			</action>
+		</item>
+		<item label="(W) Web surf">
+			<action name="Execute">
+				<execute>firefox</execute>
+			</action>
+		</item>
+		<item label="(E) Explorer">
+			<action name="Execute">
+				<execute>thunar</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="client-list-menu"/>
+	</menu>
+</openbox_menu>

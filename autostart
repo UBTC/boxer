@@ -1,0 +1,14 @@
+xbacklight = 20 &
+pkill plank; plank &
+pkill skype; skype &
+pkill compton; compton &
+pkill megasync; megasync &
+pkill xfdesktop; xfdesktop &
+pactl set-sink-volume 0 '20%'&
+pkill fcitx; fcitx-autostart &
+pkill dropbox; dropbox start &
+pkill xfce4-panel; xfce4-panel &
+setxkbmap -option caps:swapescape &
+pkill xfce4-power-manager; xfce4-power-manager &
+xautolock -time 5 -locker slock -nowlocker slock &
+play /home/mw/MEGAsync/Music/login-sound/ubuntu11/desktop-login.ogg
