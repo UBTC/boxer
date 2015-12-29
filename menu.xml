@@ -5,7 +5,7 @@
 		<separator/>
 		<item label="(S) Shell CL">
 			<action name="Execute">
-				<execute>xfce4-terminal</execute>
+				<execute>roxterm</execute>
 			</action>
 		</item>
 		<item label="(D) Document">
@@ -20,7 +20,7 @@
 		</item>
 		<item label="(E) Explorer">
 			<action name="Execute">
-				<execute>thunar</execute>
+				<execute>pcmanfm</execute>
 			</action>
 		</item>
 		<separator/>
