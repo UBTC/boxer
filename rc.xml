@@ -2,6 +2,7 @@
 <openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
   <!-- ~/.config/openbox/rc.xml ; by Mogei Wang.
      Ref http://openbox.org/wiki/Help:Actions
+         http://git.icculus.org/?p=mikachu/openbox.git;a=blob_plain;f=data/rc.xml;hb=master
      application type can be obtained by running the shell command "xprop | grep _OB_" -->
   <resistance>
     <strength>10</strength>
@@ -27,38 +28,38 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>Sans</name>
-      <size>10</size>
+      <name>Ubuntu Mono</name>
+      <size>12</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveWindow">
-      <name>Sans</name>
-      <size>10</size>
+      <name>Ubuntu Mono</name>
+      <size>12</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuHeader">
-      <name>Sans</name>
-      <size>10</size>
-      <weight>Normal</weight>
+      <name>Ubuntu Mono</name>
+      <size>12</size>
+      <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuItem">
-      <name>Sans</name>
-      <size>10</size>
+      <name>Ubuntu Mono</name>
+      <size>12</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Sans</name>
-      <size>10</size>
-      <weight>Normal</weight>
+      <name>Ubuntu Mono</name>
+      <size>12</size>
+      <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Sans</name>
-      <size>10</size>
+      <name>Ubuntu Mono</name>
+      <size>12</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
@@ -493,7 +494,15 @@
       </action>
       <!--<maximized>true</maximized>-->
       <focus>yes</focus>
-      <!--<decor>yes</decor>-->
+      <skip_taskbar>no</skip_taskbar>
+    </application>
+    <application name="*" type="panel">
+      <focus>no</focus>
+      <shade>no</shade>
+      <decor>yes</decor>
+      <layer>above</layer>
+      <desktop>all</desktop>
+      <skip_pager>no</skip_pager>
       <skip_taskbar>no</skip_taskbar>
     </application>
     <application name="*" type="dialog">
