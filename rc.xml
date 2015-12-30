@@ -496,7 +496,7 @@
       <focus>yes</focus>
       <skip_taskbar>no</skip_taskbar>
     </application>
-    <application name="*" type="panel">
+    <application name="*" type="dock">
       <focus>no</focus>
       <shade>no</shade>
       <decor>yes</decor>
