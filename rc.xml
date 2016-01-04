@@ -118,7 +118,7 @@
 
     <keybind key="W-S"><action name="Execute"><command>roxterm</command></action></keybind>
     <keybind key="W-S-S"><action name="Execute"><command>roxterm -e 'ipython --pylab'</command></action></keybind>
-    <keybind key="W-D"><action name="Execute"><command>stterm -c Neovim -T Neovim -f 'Liberation Mono:pixelsize=15:antialias=true:autohint=true' -e fish -c 'nvim'</command></action></keybind>
+    <keybind key="W-D"><action name="Execute"><command>stterm -c Neovim -T Neovim -f 'Liberation Mono:pixelsize=16:antialias=true:autohint=true' -e fish -c 'nvim'</command></action></keybind>
     <keybind key="W-S-D"><action name="Execute"><command>libreoffice</command></action></keybind>
     <keybind key="W-W"><action name="Execute"><command>firefox</command></action></keybind>
     <keybind key="W-S-W"><action name="Execute"><command>/opt/tor-browser_en-US/Browser/start-tor-browser</command></action></keybind>
@@ -139,12 +139,12 @@
     <keybind key="W-Tab"><action name="NextWindow"><finalactions><action name="Focus"/><action name="Raise"/><action name="Unshade"/></finalactions></action></keybind>
     <keybind key="W-S-Tab"><action name="PreviousWindow"><finalactions><action name="Focus"/><action name="Raise"/><action name="Unshade"/></finalactions></action></keybind>
 
-    <keybind key="W-Q"><action name="Execute"><command>lxpanelctl menu</command></action></keybind>
+    <keybind key="W-Q"><action name="ShowMenu"><menu>root-menu</menu></action></keybind>
     <keybind key="W-S-Q"><action name="ShowMenu"><menu>client-menu</menu></action></keybind>
     <keybind key="W-A"><action name="GoToDesktop"><to>next</to><wrap>yes</wrap></action></keybind>
     <keybind key="W-S-A"><action name="SendToDesktop"><to>next</to><wrap>yes</wrap></action></keybind>
     <keybind key="W-Z"><action name="Execute"><command>dmenu_run -i -fn '-bitstream-*-*-*-*-*-22-*-*-*-*-*-*-*' -l 12</command></action></keybind>
-    <keybind key="W-S-Z"><action name="Execute"><command>lxpanelctl run</command></action></keybind>
+    <keybind key="W-S-Z"><action name="Execute"><command>gmrun</command></action></keybind>
     <keybind key="W-X"><action name="AddDesktop"><where>last</where></action></keybind>
     <keybind key="W-S-X"><action name="RemoveDesktop"><where>current</where></action></keybind>
     <keybind key="W-C"><action name="ToggleShowDesktop"/></keybind>
