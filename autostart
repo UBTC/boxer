@@ -1,12 +1,14 @@
-xbacklight = 20 &
+xbacklight = 15 &
 pkill skype; skype &
 pkill lxpanel; lxpanel &
 pkill compton; compton &
 pkill megasync; megasync &
-pactl set-sink-volume 0 '20%'&
-pkill fcitx; fcitx-autostart &
+pkill nm-applet; nm-applet &
+pactl set-sink-volume 0 '15%'&
 pkill dropbox; dropbox start &
+# im-config do this automatically
 setxkbmap -option caps:swapescape &
+xrandr --output eDP1 --below DP2 --auto &
 pkill xfce4-power-manager; xfce4-power-manager &
 xautolock -time 5 -locker slock -nowlocker slock &
 play ~/MEGAsync/Music/login-sound/ubuntu11/desktop-login.ogg
