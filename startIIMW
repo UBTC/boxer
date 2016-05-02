@@ -1,0 +1,20 @@
+#!/bin/sh
+
+xfdesktop -D &
+xbacklight = 20 &
+pkill skype; skype &
+pkill compton; compton &
+pkill megasync; megasync &
+pkill nm-applet; nm-applet &
+#pkill dropbox; dropbox start&
+pactl set-sink-volume 0 '20%'&
+pkill xfce4-panel; xfce4-panel &
+pkill xfce4-clipman; xfce4-clipman&
+setxkbmap -option caps:swapescape &
+xrandr --output eDP1 --right-of DP2 --auto
+xsetroot -solid black  -cursor_name left_ptr
+pkill xscreensaver; xscreensaver -no-splash &
+pkill xfce4-power-manager; xfce4-power-manager &
+play /home/mw/MEGAsync/Music/login-sound/ubuntu11/desktop-login.ogg
+
+openbox

@@ -5,22 +5,22 @@
 		<separator/>
 		<item label="(S) Shell CL">
 			<action name="Execute">
-				<execute>roxterm</execute>
+				<execute>xfce4-terminal</execute>
 			</action>
 		</item>
 		<item label="(D) Document">
 			<action name="Execute">
-				<execute>stterm -c Neovim -T Neovim -f 'Liberation Mono:pixelsize=15:antialias=true:autohint=true' -e fish -c 'nvim'</execute>
+				<execute>emacs</execute>
 			</action>
 		</item>
 		<item label="(W) Web surf">
 			<action name="Execute">
-				<execute>firefox</execute>
+				<execute>google-chrome</execute>
 			</action>
 		</item>
 		<item label="(E) Explorer">
 			<action name="Execute">
-				<execute>pcmanfm</execute>
+				<execute>thunar</execute>
 			</action>
 		</item>
 		<separator/>

@@ -1,5 +1,5 @@
 # boxer --- openbox Environment Refined
 
-To use this repository, backup your previous openbox configuration, clone it into `~/.config/openbox` and run the command of `openbox --reconfigure`.
+This is my `openbox window manager` configuration, which is designed to work with `xfce4 desktop`.
 
 Have fun!
