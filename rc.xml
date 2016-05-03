@@ -105,19 +105,19 @@
     <keybind key="XF86AudioMute"><action name="Execute"><command>amixer set Master toggle</command></action></keybind>
     <keybind key="XF86MicMute"><action name="Execute"><command>amixer set Capture toggle</command></action></keybind>
 
-    <keybind key="XF86WWW"><action name="Execute"><command>firefox</command></action></keybind>
-    <keybind key="XF86HomePage"><action name="Execute"><command>firefox</command></action></keybind>
-    <keybind key="XF86Calculator"><action name="Execute"><command>roxterm -e 'ipython --pylab'</command></action></keybind>
-    <keybind key="XF86MyComputer"><action name="Execute"><command>pcmanfm</command></action></keybind>
-    <keybind key="XF86Terminal"><action name="Execute"><command>roxterm</command></action></keybind>
+    <keybind key="XF86WWW"><action name="Execute"><command>google-chrome</command></action></keybind>
+    <keybind key="XF86HomePage"><action name="Execute"><command>google-chrome</command></action></keybind>
+    <keybind key="XF86Calculator"><action name="Execute"><command>xfce4-terminal -e 'ipython'</command></action></keybind>
+    <keybind key="XF86MyComputer"><action name="Execute"><command>thunar</command></action></keybind>
+    <keybind key="XF86Terminal"><action name="Execute"><command>xfce4-terminal</command></action></keybind>
     <keybind key="XF86Sleep"><action name="Execute"><command>gksudo pm-suspend</command></action></keybind>
     <keybind key="S-XF86Sleep"><action name="Execute"><command>gksudo pm-hibernate</command></action></keybind>
     <keybind key="Menu"><action name="ShowMenu"><menu>root-menu</menu></action></keybind>
     <keybind key="S-Menu"><action name="ShowMenu"><menu>client-menu</menu></action></keybind>
-    <keybind key="Print"><action name="Execute"><command>scrot -e 'mv $f ~/screenshots/'</command></action></keybind>
+    <keybind key="Print"><action name="Execute"><command>xfce4-screenshooter</command></action></keybind>
 
     <keybind key="W-S"><action name="Execute"><command>xfce4-terminal</command></action></keybind>
-    <keybind key="W-S-S"><action name="Execute"><command>xfce4-terminal -e 'ipython --pylab'</command></action></keybind>
+    <keybind key="W-S-S"><action name="Execute"><command>xfce4-terminal -e 'ipython'</command></action></keybind>
     <keybind key="W-D"><action name="Execute"><command>emacs</command></action></keybind>
     <keybind key="W-S-D"><action name="Execute"><command>libreoffice</command></action></keybind>
     <keybind key="W-W"><action name="Execute"><command>google-chrome</command></action></keybind>
