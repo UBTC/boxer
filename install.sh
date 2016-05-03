@@ -20,6 +20,6 @@ mv ~/.config/openbox ~/.config/openbox.backup
 mkdir -p ~/.config/openbox
 cp ~/.boxer/rc.xml   ~/.config/openbox/rc.xml
 cp ~/.boxer/menu.xml ~/.config/openbox/menu.xml
-sudo cp ~/.boxer/IIMW.desktop /usr/share/xsession/IIMW.desktop
+sudo cp ~/.boxer/IIMW.desktop /usr/share/xsessions/IIMW.desktop
 sudo cp ~/.boxer/startIIMW    /usr/bin/startIIMW
 sudo chmod +x /usr/bin/startIIMW
