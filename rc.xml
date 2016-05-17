@@ -29,43 +29,43 @@
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
       <name>Ubuntu Mono</name>
-      <size>12</size>
+      <size>9</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveWindow">
       <name>Ubuntu Mono</name>
-      <size>12</size>
+      <size>9</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuHeader">
       <name>Ubuntu Mono</name>
-      <size>12</size>
-      <weight>Bold</weight>
+      <size>9</size>
+      <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuItem">
       <name>Ubuntu Mono</name>
-      <size>12</size>
-      <weight>Normal</weight>
+      <size>9</size>
+      <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="ActiveOnScreenDisplay">
       <name>Ubuntu Mono</name>
-      <size>12</size>
+      <size>9</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveOnScreenDisplay">
       <name>Ubuntu Mono</name>
-      <size>12</size>
+      <size>9</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
   </theme>
   <desktops>
-    <number>1</number>
+    <number>4</number>
     <firstdesk>1</firstdesk>
     <names/>
     <popupTime>750</popupTime>
