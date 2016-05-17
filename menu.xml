@@ -3,14 +3,14 @@
 	<menu id="root-menu" label="Openbox 3">
 		<menu id="/Debian"/>
 		<separator/>
-		<item label="(S) Shell CL">
+		<item label="(S) Shell">
 			<action name="Execute">
 				<execute>xfce4-terminal</execute>
 			</action>
 		</item>
 		<item label="(D) Document">
 			<action name="Execute">
-				<execute>emacs</execute>
+				<execute>thunar</execute>
 			</action>
 		</item>
 		<item label="(W) Web surf">
@@ -18,9 +18,9 @@
 				<execute>google-chrome</execute>
 			</action>
 		</item>
-		<item label="(E) Explorer">
+		<item label="(E) Emacs">
 			<action name="Execute">
-				<execute>thunar</execute>
+				<execute>emacs</execute>
 			</action>
 		</item>
 		<separator/>
