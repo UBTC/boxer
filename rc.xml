@@ -106,24 +106,44 @@
     <keybind key="XF86MicMute"><action name="Execute"><command>amixer set Capture toggle</command></action></keybind>
 
     <keybind key="XF86WWW"><action name="Execute"><command>google-chrome</command></action></keybind>
-    <keybind key="XF86HomePage"><action name="Execute"><command>google-chrome</command></action></keybind>
+    <keybind key="XF86Mail"><action name="Execute"><command>emacs</command></action></keybind>
+    <keybind key="XF86Search"><action name="Execute"><command>catfish</command></action></keybind>
+    <keybind key="XF86Video"><action name="Execute"><command>parole</command></action></keybind>
+    <keybind key="XF86Music"><action name="Execute"><command>gmusicbrowser</command></action></keybind>
+    <keybind key="XF86Book"><action name="Execute"><command>zathura</command></action></keybind>
+    <keybind key="XF86Memo"><action name="Execute"><command>geany</command></action></keybind>
+    <keybind key="XF86CD"><action name="Execute"><command>xfburn</command></action></keybind>
+    <keybind key="XF86Calendar"><action name="Execute"><command>orage</command></action></keybind>
+    <keybind key="XF86TodoList"><action name="Execute"><command>hamster-time-tracer</command></action></keybind>
+    <keybind key="XF86Spell"><action name="Execute"><command>xfce4-dict</command></action></keybind>
+    <keybind key="XF86Tools"><action name="Execute"><command>obconf</command></action></keybind>
+    <keybind key="XF86Pictures"><action name="Execute"><command>ristretto</command></action></keybind>
+    <keybind key="XF86Meeting"><action name="Execute"><command>skype</command></action></keybind>
+    <keybind key="XF86Messenger"><action name="Execute"><command>skype</command></action></keybind>
+    <keybind key="XF86OfficeHome"><action name="Execute"><command>libreoffice</command></action></keybind>
+    <keybind key="XF86WebCam"><action name="Execute"><command>mugshot</command></action></keybind>
+    <keybind key="XF86HomePage"><action name="Execute"><command>google-chrome www.265.com</command></action></keybind>
     <keybind key="XF86Calculator"><action name="Execute"><command>xfce4-terminal -e 'ipython'</command></action></keybind>
     <keybind key="XF86MyComputer"><action name="Execute"><command>thunar</command></action></keybind>
     <keybind key="XF86Terminal"><action name="Execute"><command>xfce4-terminal</command></action></keybind>
     <keybind key="XF86Sleep"><action name="Execute"><command>gksudo pm-suspend</command></action></keybind>
-    <keybind key="S-XF86Sleep"><action name="Execute"><command>gksudo pm-hibernate</command></action></keybind>
+    <keybind key="XF86PowerOff"><action name="Execute"><command>gksudo pm-hibernate</command></action></keybind>
+    <keybind key="XF86Send"><action name="Execute"><command>xfce4-appfinder --disable-server</command></action></keybind>
+    <keybind key="XF86Open"><action name="Execute"><command>xfrun4 --disable-server</command></action></keybind>
+    <keybind key="XF86TaskPane"><action name="Execute"><command>xfce4-taskmanager</command></action></keybind>
+    <keybind key="XF86ScreenSaver"><action name="Execute"><command>xscreensaver -lock</command></action></keybind>
     <keybind key="Menu"><action name="ShowMenu"><menu>root-menu</menu></action></keybind>
-    <keybind key="S-Menu"><action name="ShowMenu"><menu>client-menu</menu></action></keybind>
+    <keybind key="XF86Option"><action name="ShowMenu"><menu>client-menu</menu></action></keybind>
     <keybind key="Print"><action name="Execute"><command>xfce4-screenshooter</command></action></keybind>
 
     <keybind key="W-S"><action name="Execute"><command>xfce4-terminal</command></action></keybind>
     <keybind key="W-S-S"><action name="Execute"><command>xfce4-terminal -e 'ipython'</command></action></keybind>
-    <keybind key="W-D"><action name="Execute"><command>emacs</command></action></keybind>
-    <keybind key="W-S-D"><action name="Execute"><command>libreoffice</command></action></keybind>
+    <keybind key="W-E"><action name="Execute"><command>emacs</command></action></keybind>
+    <keybind key="W-S-E"><action name="Execute"><command>libreoffice</command></action></keybind>
     <keybind key="W-W"><action name="Execute"><command>google-chrome</command></action></keybind>
     <keybind key="W-S-W"><action name="Execute"><command>/opt/tor-browser_en-US/Browser/start-tor-browser</command></action></keybind>
-    <keybind key="W-E"><action name="Execute"><command>thunar</command></action></keybind>
-    <keybind key="W-S-E"><action name="Execute"><command>catfish</command></action></keybind>
+    <keybind key="W-D"><action name="Execute"><command>thunar</command></action></keybind>
+    <keybind key="W-S-D"><action name="Execute"><command>catfish</command></action></keybind>
 
     <keybind key="W-Right"><action name="GoToDesktop"><to>next</to><wrap>yes</wrap></action></keybind>
     <keybind key="W-Left"><action name="GoToDesktop"><to>previous</to><wrap>yes</wrap></action></keybind>

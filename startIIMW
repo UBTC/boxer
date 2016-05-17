@@ -15,6 +15,7 @@ xrandr --output eDP1 --right-of DP2 --auto
 xsetroot -solid black  -cursor_name left_ptr
 pkill xscreensaver; xscreensaver -no-splash &
 pkill xfce4-power-manager; xfce4-power-manager &
+pkill hamster-time-tracker; hamster-time-tracker &
 play /home/mw/MEGAsync/Music/login-sound/ubuntu11/desktop-login.ogg
 
 openbox
