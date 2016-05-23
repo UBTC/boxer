@@ -86,12 +86,12 @@
     <right>2</right>
   </margins>
   <dock>
-    <position>TopRight</position>
-    <floatingX>6</floatingX>
-    <floatingY>5</floatingY>
+    <position>Bottom</position>
+    <floatingX>0</floatingX>
+    <floatingY>0</floatingY>
     <noStrut>yes</noStrut>
     <stacking>Normal</stacking>
-    <direction>Vertical</direction>
+    <direction>Horizontal</direction>
     <autoHide>yes</autoHide>
     <hideDelay>500</hideDelay>
     <showDelay>100</showDelay>
@@ -147,7 +147,7 @@
     <keybind key="W-C-Up"><action name="SendToDesktop"><to>previous</to><wrap>yes</wrap></action></keybind>
     <keybind key="W-Z"><action name="ToggleMaximizeFull"/></keybind>
     <keybind key="W-S-Z"><action name="Iconify"/></keybind>
-		
+
     <keybind key="W-grave"><action name="ToggleAlwaysOnTop"/></keybind>
     <keybind key="W-S-grave"><action name="ToggleDecorations"/></keybind>
     <keybind key="W-Q"><action name="ShowMenu"><menu>client-menu</menu></action></keybind>
@@ -525,10 +525,10 @@
       <focus>no</focus>
       <shade>no</shade>
       <decor>yes</decor>
-      <layer>above</layer>
+      <layer>normal</layer>
       <desktop>all</desktop>
-      <skip_pager>no</skip_pager>
-      <skip_taskbar>no</skip_taskbar>
+      <skip_pager>yes</skip_pager>
+      <skip_taskbar>yes</skip_taskbar>
     </application>
     <application name="*" type="dialog">
       <action name="UnmaximizeFull"/>
