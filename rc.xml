@@ -137,36 +137,25 @@
     <keybind key="Print"><action name="Execute"><command>xfce4-screenshooter</command></action></keybind>
 
     <keybind key="W-S"><action name="Execute"><command>xfce4-terminal</command></action></keybind>
-    <keybind key="W-S-S"><action name="Execute"><command>xfce4-terminal -e 'ipython'</command></action></keybind>
     <keybind key="W-E"><action name="Execute"><command>emacs</command></action></keybind>
-    <keybind key="W-S-E"><action name="Execute"><command>libreoffice</command></action></keybind>
     <keybind key="W-W"><action name="Execute"><command>google-chrome</command></action></keybind>
-    <keybind key="W-S-W"><action name="Execute"><command>/opt/tor-browser_en-US/Browser/start-tor-browser</command></action></keybind>
     <keybind key="W-D"><action name="Execute"><command>thunar</command></action></keybind>
-    <keybind key="W-S-D"><action name="Execute"><command>catfish</command></action></keybind>
 
-    <keybind key="W-Right"><action name="GoToDesktop"><to>next</to><wrap>yes</wrap></action></keybind>
-    <keybind key="W-Left"><action name="GoToDesktop"><to>previous</to><wrap>yes</wrap></action></keybind>
-    <keybind key="W-S-Right"><action name="SendToDesktop"><to>next</to><wrap>yes</wrap></action></keybind>
-    <keybind key="W-S-Left"><action name="SendToDesktop"><to>previous</to><wrap>yes</wrap></action></keybind>
-    <keybind key="W-Up"><action name="ToggleMaximizeFull"/></keybind>
-    <keybind key="W-Down"><action name="Iconify"/></keybind>
-    <keybind key="W-S-Up"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>0</x><y>0</y><width>50%</width><height>100%</height></action></keybind>
-    <keybind key="W-S-Down"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>50%</x><y>0</y><width>50%</width><height>100%</height></action></keybind>
+    <keybind key="W-C-Right"><action name="GoToDesktop"><to>next</to><wrap>yes</wrap></action></keybind>
+    <keybind key="W-C-Left"><action name="GoToDesktop"><to>previous</to><wrap>yes</wrap></action></keybind>
+    <keybind key="W-C-S-Right"><action name="SendToDesktop"><to>next</to><wrap>yes</wrap></action></keybind>
+    <keybind key="W-C-S-Left"><action name="SendToDesktop"><to>previous</to><wrap>yes</wrap></action></keybind>
+    <keybind key="W-Z"><action name="ToggleMaximizeFull"/></keybind>
+    <keybind key="W-S-Z"><action name="Iconify"/></keybind>
 
-    <keybind key="W-grave"><action name="ToggleAlwaysOnTop"/></keybind>
-    <keybind key="W-S-grave"><action name="ToggleDecorations"/></keybind>
-    <keybind key="W-Tab"><action name="NextWindow"><finalactions><action name="Focus"/><action name="Raise"/><action name="Unshade"/></finalactions></action></keybind>
-    <keybind key="W-S-Tab"><action name="PreviousWindow"><finalactions><action name="Focus"/><action name="Raise"/><action name="Unshade"/></finalactions></action></keybind>
-
-    <keybind key="W-Q"><action name="ShowMenu"><menu>root-menu</menu></action></keybind>
-    <keybind key="W-S-Q"><action name="ShowMenu"><menu>client-menu</menu></action></keybind>
+    <keybind key="W-S-Q"><action name="ShowMenu"><menu>root-menu</menu></action></keybind>
+    <keybind key="W-Q"><action name="ShowMenu"><menu>client-menu</menu></action></keybind>
     <keybind key="W-A"><action name="GoToDesktop"><to>next</to><wrap>yes</wrap></action></keybind>
     <keybind key="W-S-A"><action name="SendToDesktop"><to>next</to><wrap>yes</wrap></action></keybind>
     <keybind key="W-Z"><action name="AddDesktop"><where>last</where></action></keybind>
     <keybind key="W-S-Z"><action name="RemoveDesktop"><where>current</where></action></keybind>
     <keybind key="W-X"><action name="Execute"><command>xfce4-appfinder --disable-server</command></action></keybind>
-    <keybind key="W-S-X"><action name="Execute"><command>xfrun4 --disable-server</command></action></keybind>
+    <keybind key="W-S-X"><action name="ToggleFullscreen"></action></keybind>
     <keybind key="W-C"><action name="ToggleShowDesktop"/></keybind>
     <keybind key="W-S-C"><action name="Close"/></keybind>
 
@@ -180,15 +169,31 @@
     <keybind key="W-V"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>0</x><y>-0</y></action></keybind>
     <keybind key="W-G"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>center</x><y>center</y></action></keybind>
 
-    <keybind key="W-S-F"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>0</x><y>0</y><width>50%</width><height>100%</height></action></keybind>
-    <keybind key="W-S-T"><action name="ToggleMaximizeFull"/></keybind>
-    <keybind key="W-S-H"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>-0</x><y>0</y><width>50%</width><height>100%</height></action></keybind>
-    <keybind key="W-S-B"><action name="Iconify"/></keybind>
-    <keybind key="W-S-R"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>0</x><y>0</y><width>50%</width><height>50%</height></action></keybind>
-    <keybind key="W-S-Y"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>-0</x><y>0</y><width>50%</width><height>50%</height></action></keybind>
-    <keybind key="W-S-N"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>-0</x><y>-0</y><width>50%</width><height>50%</height></action></keybind>
-    <keybind key="W-S-V"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>0</x><y>-0</y><width>50%</width><height>50%</height></action></keybind>
-    <keybind key="W-S-G"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>center</x><y>center</y><width>70%</width><height>70%</height></action></keybind>
+    <keybind key="W-Tab"><action name="NextWindow"><finalactions><action name="Focus"/><action name="Raise"/><action name="Unshade"/></finalactions></action></keybind>
+    <keybind key="W-S-Tab"><action name="PreviousWindow"><finalactions><action name="Focus"/><action name="Raise"/><action name="Unshade"/></finalactions></action></keybind>
+    <keybind key="W-Left">><action name="DirectionalCycleWindows"><direction>west</direction></action></keybind>
+    <keybind key="W-Up"><action name="DirectionalCycleWindows"><direction>north</direction></action></keybind>
+    <keybind key="W-Right"><action name="DirectionalCycleWindows"><direction>right</direction></action></keybind>
+    <keybind key="W-Down"><action name="DirectionalCycleWindows"><direction>south</direction></action></keybind>
+
+    <keybind key="W-S-Left"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>0</x><y>0</y><width>50%</width><height>100%</height></action></keybind>
+    <keybind key="W-S-Up"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>0</x><y>0</y><width>100%</width><height>50%</height></action></keybind>
+    <keybind key="W-S-Right"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>50%</x><y>0</y><width>50%</width><height>100%</height></action></keybind>
+    <keybind key="W-S-Down"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>0</x><y>50%</y><width>100%</width><height>50%</height></action></keybind>
+    <keybind key="W-S-W"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>0</x><y>0</y><width>50%</width><height>50%</height></action></keybind>
+    <keybind key="W-S-E"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>-0</x><y>0</y><width>50%</width><height>50%</height></action></keybind>
+    <keybind key="W-S-D"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>-0</x><y>-0</y><width>50%</width><height>50%</height></action></keybind>
+    <keybind key="W-S-S"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>0</x><y>-0</y><width>50%</width><height>50%</height></action></keybind>
+
+    <keybind key="W-S-V"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>center</x><y>center</y><width>10%</width><height>10%</height></action></keybind>
+    <keybind key="W-S-B"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>center</x><y>center</y><width>20%</width><height>20%</height></action></keybind>
+    <keybind key="W-S-N"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>center</x><y>center</y><width>30%</width><height>30%</height></action></keybind>
+    <keybind key="W-S-F"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>center</x><y>center</y><width>40%</width><height>40%</height></action></keybind>
+    <keybind key="W-S-G"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>center</x><y>center</y><width>50%</width><height>50%</height></action></keybind>
+    <keybind key="W-S-H"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>center</x><y>center</y><width>60%</width><height>60%</height></action></keybind>
+    <keybind key="W-S-R"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>center</x><y>center</y><width>70%</width><height>70%</height></action></keybind>
+    <keybind key="W-S-T"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>center</x><y>center</y><width>80%</width><height>80%</height></action></keybind>
+    <keybind key="W-S-Y"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>center</x><y>center</y><width>90%</width><height>90%</height></action></keybind>
   </keyboard>
   <mouse>
     <dragThreshold>10</dragThreshold>
