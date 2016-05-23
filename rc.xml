@@ -136,10 +136,10 @@
     <keybind key="XF86Option"><action name="ShowMenu"><menu>client-menu</menu></action></keybind>
     <keybind key="Print"><action name="Execute"><command>xfce4-screenshooter</command></action></keybind>
 
-    <keybind key="W-S"><action name="Execute"><command>xfce4-terminal</command></action></keybind>
-    <keybind key="W-E"><action name="Execute"><command>emacs</command></action></keybind>
-    <keybind key="W-W"><action name="Execute"><command>google-chrome</command></action></keybind>
-    <keybind key="W-D"><action name="Execute"><command>thunar</command></action></keybind>
+    <keybind key="W-S"><action name="Execute"><prompt>Do you want to run a terminal?</prompt><command>xfce4-terminal</command></action></keybind>
+    <keybind key="W-E"><action name="Execute"><prompt>Do you want to run an emacs?</prompt><command>emacs</command></action></keybind>
+    <keybind key="W-W"><action name="Execute"><prompt>Do you want to run a browser?</prompt><command>google-chrome</command></action></keybind>
+    <keybind key="W-D"><action name="Execute"><prompt>Do you want to run a filemanager?</prompt><command>thunar</command></action></keybind>
 
     <keybind key="W-C-Right"><action name="GoToDesktop"><to>next</to><wrap>yes</wrap></action></keybind>
     <keybind key="W-C-Left"><action name="GoToDesktop"><to>previous</to><wrap>yes</wrap></action></keybind>
