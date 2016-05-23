@@ -143,17 +143,17 @@
 
     <keybind key="W-C-Right"><action name="GoToDesktop"><to>next</to><wrap>yes</wrap></action></keybind>
     <keybind key="W-C-Left"><action name="GoToDesktop"><to>previous</to><wrap>yes</wrap></action></keybind>
-    <keybind key="W-C-S-Right"><action name="SendToDesktop"><to>next</to><wrap>yes</wrap></action></keybind>
-    <keybind key="W-C-S-Left"><action name="SendToDesktop"><to>previous</to><wrap>yes</wrap></action></keybind>
+    <keybind key="W-C-Down"><action name="SendToDesktop"><to>next</to><wrap>yes</wrap></action></keybind>
+    <keybind key="W-C-Up"><action name="SendToDesktop"><to>previous</to><wrap>yes</wrap></action></keybind>
     <keybind key="W-Z"><action name="ToggleMaximizeFull"/></keybind>
     <keybind key="W-S-Z"><action name="Iconify"/></keybind>
-
-    <keybind key="W-S-Q"><action name="ShowMenu"><menu>root-menu</menu></action></keybind>
+		
+    <keybind key="W-grave"><action name="ToggleAlwaysOnTop"/></keybind>
+    <keybind key="W-S-grave"><action name="ToggleDecorations"/></keybind>
     <keybind key="W-Q"><action name="ShowMenu"><menu>client-menu</menu></action></keybind>
+    <keybind key="W-S-Q"><action name="ShowMenu"><menu>root-menu</menu></action></keybind>
     <keybind key="W-A"><action name="GoToDesktop"><to>next</to><wrap>yes</wrap></action></keybind>
     <keybind key="W-S-A"><action name="SendToDesktop"><to>next</to><wrap>yes</wrap></action></keybind>
-    <keybind key="W-Z"><action name="AddDesktop"><where>last</where></action></keybind>
-    <keybind key="W-S-Z"><action name="RemoveDesktop"><where>current</where></action></keybind>
     <keybind key="W-X"><action name="Execute"><command>xfce4-appfinder --disable-server</command></action></keybind>
     <keybind key="W-S-X"><action name="ToggleFullscreen"></action></keybind>
     <keybind key="W-C"><action name="ToggleShowDesktop"/></keybind>
